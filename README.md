@@ -8,7 +8,7 @@ Projeto de site para um pet shop especializado em **animais idosos**, desenvolvi
 - Design responsivo para mobile (480px)
 - Formulário com campos obrigatórios e tipos diferentes
 
-## 💻 Tecnologias usadas
+## 💻 usadas
 - HTML5
 - CSS3
 - JavaScript (estrutura base)
