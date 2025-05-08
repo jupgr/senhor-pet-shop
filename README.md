@@ -13,4 +13,8 @@ Projeto de site para um pet shop especializado em **animais idosos**, desenvolvi
 - CSS3
 - JavaScript (estrutura base)
 
-## 📁 Estrutura
+## Melhorias futuras
+- Integração com formulário real (back-end)
+- Banco de dados para cadastro de produtos
+- Área de login para clientes
+
