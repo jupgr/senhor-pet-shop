@@ -18,3 +18,19 @@ Projeto de site para um pet shop especializado em **animais idosos**, desenvolvi
 - Banco de dados para cadastro de produtos
 - Área de login para clientes
 
+## 🖼️ Preview
+
+### Página inicial:
+![home](prints/home.jpg)
+
+### Página dos cachorros:
+![Cachorros](prints/pagina-cachorro.jpgg)
+
+### Página gatos:
+![Gatos](prints/gatos.jpg)
+
+### Página outros:
+![Outros](prints/pagina-outros.jpg)
+
+### Página Contato:
+![Contato](prints/pagina-contato.jpg)
