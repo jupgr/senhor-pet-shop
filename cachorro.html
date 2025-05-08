@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Senhor Pet Shop - Vendas Online para Animais Sênior</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 30;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            font-family: Arial, sans-serif;
+            background-color: #fffaf0; 
+            color: #4f4f4f; 
+            position: relative; 
+            background-image: url("fundo_cachorro.png");
+            background-repeat: no-repeat;
+            background-size: contain; 
+            background-position: bottom right; 
+        }
+
+        header {
+            background-color: rgba(255, 236, 179, 0.9); 
+            color: #4f4f4f;
+            padding: 20px;
+            text-align: center;
+            position: relative; 
+            z-index: 1; 
+        }
+
+        nav {
+            background-color: rgba(255, 204, 128, 0.9); 
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #4f4f4f;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 0 5px; 
+        }
+
+        nav a:hover {
+            background-color: rgba(255, 236, 179, 0.9); 
+        }
+
+        .container {
+            flex: 1; 
+            width: 78%;
+            margin: 5px auto;
+            position: relative; 
+            z-index: 2; 
+        }
+
+        .produto {
+            display: inline-block;
+            width: 30%;
+            margin: 1%;
+            background-color: rgba(255, 255, 255, 0.9); 
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            box-shadow: 0 4px 9px rgba(0, 0, 0, 0.1);
+            position: relative; 
+            z-index: 2; 
+        }
+
+        .produto-info {
+            padding: 15px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 15px;
+            background-color: #ffaa00;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        #info-container {
+            display: flex;
+            justify-content: center;
+            padding: 7px;
+            background-color: #ffcc80;
+            font-size: 10px;
+            font-weight: bold;
+        }
+
+        #info-container span {
+            margin: 0 1cm; 
+        }
+
+        footer {
+            background-color: #ffcc80;
+            padding: 20px;
+            text-align: center;
+            color: #4f4f4f;
+        }
+         
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="logo.jpg" alt="Logo" width="380" height="150">
+        <h2>A loja para seu Pet Sênior!</h2>
+    </header>
+
+    <nav>
+        <section>
+            <h3>
+                <a href="HOME.html">Home</a>
+                <a href="cachorro.html">Cachorro</a>
+                <a href="gatos.html">Gato</a>
+                <a href="emconstrucao.html">Outros Pets</a>
+                <a href="faleconosco.html">Contato</a>
+            </h3>
+        </section>
+    </nav>
+
+    <div class="container">
+        <h4>Produtos para Cachorro Sênior</h4>
+        
+        <div class="produto">
+            <img src="produtos/img2.jpg" alt="Ração Premier" width="80" height="120">
+            <div class="produto-info"> 
+                <h3>Ração Premier</h3>
+                <p>Especialmente formulada para cães idosos.</p>
+                <p><strong>R$ 89,99</strong></p>
+                <a href="#" class="btn">Adicionar ao Carrinho</a>
+            </div>
+        </div>
+
+        <div class="produto">
+            <img src="produtos/img3.jpg" alt="Ração Úmida Pedigree" width="80" height="120">
+            <div class="produto-info">
+                <h3>Ração Úmida Pedigree</h3>
+                <p>Ajuda o sistema imunológico e fortalece músculos e ossos.</p>
+                <p><strong>R$ 49,99</strong></p>
+                <a href="#" class="btn">Adicionar ao Carrinho</a>
+            </div>
+        </div>
+
+        <div class="produto">
+            <img src="produtos/img4.jpg" alt="Glicopan Gold Suplemento de Vitaminas para Pets" width="80" height="120">
+            <div class="produto-info">
+                <h3>Glicopan Gold</h3>
+                <p>Energético e auxiliar na recuperação física e no apetite.</p>
+                <p><strong>R$ 54,90</strong></p>
+                <a href="#" class="btn">Adicionar ao Carrinho</a>
+            </div>
+        </div>
+    </div> 
+
+    <footer>
+       <script src="./scripts.js"></script>
+    </footer>
+</body>
+</html>

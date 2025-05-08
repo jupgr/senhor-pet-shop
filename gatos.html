@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos para Gatos - Senhor Pet Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #4f4f4f;
+            background-image: url("fundo_gatos.png");
+            background-repeat: no-repeat;
+            background-size: contain; 
+            background-position: bottom right; 
+        }
+
+        header {
+            background-color: #ffecb3;
+            color: #4f4f4f;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #ffcc80;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav section {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #4f4f4f;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 0 5px;
+        }
+
+        nav a:hover {
+            background-color: #ffecb3;
+        }
+
+        main {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 1200px;
+            border-radius: 10px;
+            
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .product-item {
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .product-item h3 {
+            color: #ff6f00;
+            margin: 15px 0;
+        }
+
+        .product-item ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .product-item ul li {
+            margin-bottom: 10px;
+            font-size: 0.9em;
+        }
+
+        .product-item a {
+            display: inline-block;
+            background-color: #ff6f00;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .product-item a:hover {
+            background-color: #ffcc80;
+            color: #4f4f4f;
+        }
+
+        #info-container {
+            display: flex;
+            justify-content: center;
+            padding: 7px;
+            background-color: #ffcc80;
+            font-size: 10px;
+            font-weight: bold;
+        }
+
+        #info-container span {
+            margin: 0 1cm; 
+        }
+
+        footer {
+            background-color: #ffcc80;
+            padding: 20px;
+            text-align: center;
+            color: #4f4f4f;
+        }
+    
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="logo.jpg" alt="Logo" width="380" height="150">
+        <h2>A loja para seu Pet Sênior!</h2>
+    </header>
+
+    <nav>
+        <section>
+            <h3>
+                <a href="HOME.html">Home</a>
+                <a href="cachorro.html">Cachorro</a>
+                <a href="gatos.html">Gato</a>
+                <a href="emconstrucao.html">Outros Pets</a>
+                <a href="faleconosco.html">Contato</a>
+            </h3>
+        </section>
+    </nav>
+
+    <main>
+        <section>
+            <h4>Produtos para Gato Sênior</h4>
+        </section>
+
+        <section>
+            <div class="product-grid">
+                <div class="product-item">
+                    <img src="produtos/img1.jpg" alt="Ração Golden Gatos" width="80" height="120">
+                    <h3>Ração Golden Gatos Castrados Sênior Frango 3 kg</h3>
+                    <ul>
+                        <li>Contribui para o trato urinário saudável;</li>
+                        <li>Rico em ômegas 3, 6 e taurina;</li>
+                        <li>R$ 62,91!</li>
+                    </ul>
+                    <a href="#">Adicionar ao Carrinho</a>
+                </div>
+
+                <div class="product-item">
+                    <img src="produtos/06_SENIOR.jpg" alt="Areia Sanitária Pulo do Gato Mix de Grãos para Senior" width="120" height="170">
+                    <h3>Areia Sanitária Premium para Gatos Sênior 4 kg</h3>
+                    <ul>
+                        <li>Mix de grãos - Micro, Médio e Grosso;</li>
+                        <li>Elimina 100% os odores da urina;</li>
+                        <li>R$ 15,89!</li>
+                    </ul>
+                    <a href="#">Adicionar ao Carrinho</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+      
+        <script src="./scripts.js"></script>
+    
+    </footer>
+</body>
+
+</html>

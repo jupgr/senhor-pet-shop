@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senhor Pet Shop - Cuidados com Animais Sênior</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fffaf0;
+            color: #4f4f4f;
+            background-image: url('caminho/para/sua/imagem-de-fundo.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            font-size: 16px;
+        }
+
+        header {
+            background-color: #ffecb3;
+            color: #4f4f4f;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #ffcc80;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #1d000a;
+            padding: 20px;
+            border-radius: 0px;
+            margin: 0 5px;
+            font-size: 20px;
+        }
+
+        nav a:hover {
+            background-color: #ffecb3;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            margin: 5px auto;
+            max-width: 1500px; 
+            border-radius: 10px;
+        }
+
+        .intro {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 1500px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .video-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .video-block {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            flex: 1;
+            max-width: 48%; 
+            text-align: center;
+        }
+
+        .video-block video {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+
+        #info-container {
+            display: flex;
+            justify-content: center;
+            padding: 7px;
+            background-color: #ffcc80;
+            font-size: 10px;
+            font-weight: bold;
+        }
+
+        #info-container span {
+            margin: 0 1cm; 
+        }
+
+        footer {
+            background-color: #ffcc80;
+            padding: 20px;
+            text-align: center;
+            color: #4f4f4f;
+        }
+        
+        @media (max-width: 480px) {
+            .video-container {
+                flex-direction: column; 
+            }
+
+            nav {
+                padding: 10px; 
+            }
+            
+            nav a {
+                padding: 8px 10px; 
+                margin: 5px 0; 
+                display: block; 
+                text-align: center; 
+            }
+
+            .video-block {
+                max-width: 100%; 
+                margin-bottom: 20px;
+            }
+
+            main {
+                padding: 10px;
+            }
+
+            .intro {
+                margin: 10px auto;
+                padding: 10px;
+                text-align: justify;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="logo.jpg" alt="Logo" width="380" height="150">
+        <h2>A loja para seu Pet Sênior!</h2>
+    </header>
+    
+    <nav>
+        <section>
+            <h3>
+                <a href="HOME.html">Home</a>
+                <a href="cachorro.html">Cachorro</a>
+                <a href="gatos.html">Gato</a>
+                <a href="emconstrucao.html">Outros Pets</a>
+                <a href="faleconosco.html">Contato</a>
+            </h3>
+        </section>
+    </nav>
+
+    <main>
+        <div class="intro">
+            <h3>Cuidados com animais idosos</h3>
+            <p>Com os avanços na medicina veterinária e a melhoria dos cuidados diários, nossos amigos de quatro patas estão vivendo mais anos do que nunca. No Senhor Pet Shop, oferecemos uma gama de produtos especializados para cães e gatos idosos, que precisam de atenção e cuidados específicos para garantir uma vida longa e saudável. Aqui, você encontra tudo o que seu pet sênior necessita para uma vida confortável e feliz!</p>
+        </div>
+
+        <section>
+            <div class="video-container">
+                <div class="video-block">
+                    <h3>Assista ao vídeo da Dra Antonella</h3>
+                    <p>Vitale Centro Médico Veterinário, sobre cuidados com cães idosos!</p>
+                    <video controls>
+                        <source src="video-cuidado-cachorros.mp4" type="video/mp4">
+                        Seu navegador não suporta a tag de vídeo.
+                    </video>
+                </div>
+
+                <div class="video-block">
+                    <h3>7 dicas do Tiago Francos</h3>
+                    <p>Canal Medicina Felinos, para manter os gatos idosos felizes e saudáveis!</p>
+                    <video controls>
+                        <source src="dica_gatos_idosos.mp4" type="video/mp4">
+                        Seu navegador não suporta a tag de vídeo.
+                    </video>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    
+
+    <footer>   
+        
+    <script src="./scripts.js"></script>
+
+    </footer>
+    
+    
+</body>
+
+</html>

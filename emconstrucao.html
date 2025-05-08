@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senhor Pet Shop - Cuidados com Animais Sênior</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            font-family: Arial, sans-serif;
+            background-color: #fffaf0; 
+            color: #4f4f4f; 
+            position: relative; 
+            background-image: url("");
+            background-repeat: no-repeat;
+            background-size: contain; 
+            background-position: center; 
+        }
+
+        header {
+            background-color: rgba(255, 236, 179, 0.9); 
+            color: #4f4f4f;
+            padding: 20px;
+            text-align: center;
+            position: relative; 
+            z-index: 1; 
+        }
+
+        nav {
+            background-color: rgba(255, 204, 128, 0.9); 
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #4f4f4f;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 0 5px; 
+        }
+
+        nav a:hover {
+            background-color: rgba(255, 236, 179, 0.9); 
+        }
+
+        main {
+            flex: 1; 
+            display: flex;
+            justify-content: center; 
+            align-items: center; 
+        }
+
+        .container {
+            flex: 1; 
+            width: 80%;
+            margin: 5px auto;
+            position: relative; 
+            z-index: 2; 
+        }
+
+        .produto {
+            display: inline-block;
+            width: 30%;
+            margin: 1%;
+            background-color: rgba(255, 255, 255, 0.9); 
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            box-shadow: 0 4px 9px rgba(0, 0, 0, 0.1);
+            position: relative; 
+            z-index: 2; 
+        }
+
+        .produto-info {
+            padding: 15px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 15px;
+            background-color: #ffaa00;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        #info-container {
+            display: flex;
+            justify-content: center;
+            padding: 7px;
+            background-color: #ffcc80;
+            font-size: 10px;
+            font-weight: bold;
+        }
+
+        #info-container span {
+            margin: 0 1cm; 
+        }
+
+        footer {
+            background-color: #ffcc80;
+            padding: 20px;
+            text-align: center;
+            color: #4f4f4f;
+        }
+           
+        @media (max-width: 480px) {
+            .video-container {
+                flex-direction: column; 
+            }
+
+            nav {
+                padding: 10px; 
+            }
+            
+            nav a {
+                padding: 8px 10px; 
+                margin: 5px 0; 
+                display: block; 
+                text-align: center; 
+            }
+
+            .video-block {
+                max-width: 100%; 
+                margin-bottom: 20px;
+            }
+
+            main {
+                padding: 10px;
+            }
+
+            .intro {
+                margin: 10px auto;
+                padding: 10px;
+                text-align: justify;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="logo.jpg" alt="Logo" width="380" height="150">
+        <h2>A loja para seu Pet Sênior!</h2>
+    </header>
+
+    <nav>
+        <section>
+            <h3>
+                <a href="HOME.html">Home</a>
+                <a href="cachorro.html">Cachorro</a>
+                <a href="gatos.html">Gato</a>
+                <a href="emconstrucao.html">Outros Pets</a>
+                <a href="faleconosco.html">Contato</a>
+            </h3>
+        </section>
+    </nav>
+
+    <main>
+        <section>
+            <img src="outros.jpg" alt="Página em construção" width="700" height="700" style="display: block; margin: auto;">
+        </section>
+    </main>
+    <footer>
+  
+        <script src="./scripts.js"></script>
+    
+    </footer>
+</body>
+</html>
