@@ -21,16 +21,16 @@ Projeto de site para um pet shop especializado em **animais idosos**, desenvolvi
 ## 🖼️ Preview
 
 ### Página inicial:
-![home](prints/home.jpg)
+![home](prints/home.JPG)
 
 ### Página dos cachorros:
-![Cachorros](prints/pagina-cachorro.jpgg)
+![Cachorros](prints/cachorro.JPG)
 
 ### Página gatos:
-![Gatos](prints/gatos.jpg)
+![Gatos](prints/gatos.JPG)
 
 ### Página outros:
-![Outros](prints/pagina-outros.jpg)
+![Outros](prints/outros.JPG)
 
 ### Página Contato:
-![Contato](prints/pagina-contato.jpg)
+![Contato](prints/contato.JPG)
