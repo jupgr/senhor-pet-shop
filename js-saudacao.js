@@ -1,8 +1,8 @@
 function mostrarSaudacao() {
    
-    const nome = "Sou a Juliana";
-    const cidadeCurso = "SP / ADS – Mackenzie";
+    const nome = "Oii, sou a Juliana!";
     
+
     var saudacao;
     
     const agora = new Date();
@@ -22,7 +22,7 @@ function mostrarSaudacao() {
     saudacaoContainer.setAttribute("class", "saudacao-content");
 
     const mensagem = document.createElement("p");
-    mensagem.innerHTML = `${nome}<br>${cidadeCurso}<br>${saudacao} Hoje é ${diaSemana}.`;
+    mensagem.innerHTML = `${nome}<br>${saudacao}<br> Hoje é ${diaSemana}.`;
     saudacaoContainer.appendChild(mensagem);
 
     const saudacaoElemento = document.getElementById("saudacao");
