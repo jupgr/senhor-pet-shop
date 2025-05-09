@@ -20,6 +20,9 @@ Projeto de site para um pet shop especializado em **animais idosos**, desenvolvi
 
 ## 🖼️ Preview
 
+### Página Saudação:
+![Saudacao](prints/saudacao.JPG)
+
 ### Página inicial:
 ![Home](prints/home.JPG)
 
