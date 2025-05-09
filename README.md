@@ -3,10 +3,11 @@
 Projeto de site para um pet shop especializado em **animais idosos**, desenvolvido como atividade prática da disciplina de Desenvolvimento Web (HTML, CSS e JS).
 
 ## ✨ Funcionalidades
-- Página inicial com produtos e vídeos
+- Página Saudação
+- Página inicial com apresentação e dicas em vídeos
 - Páginas separadas para **cachorros** e **gatos**
 - Design responsivo para mobile (480px)
-- Formulário com campos obrigatórios e tipos diferentes
+- Formulário para contato com campos obrigatórios e tipos diferentes
 
 ## 💻 usadas
 - HTML5
