@@ -1,15 +1,15 @@
-# 🐶 Senhor Pet Shop
+# Senhor Pet Shop
 
 Projeto de site para um pet shop especializado em **animais idosos**, desenvolvido como atividade prática da disciplina de Desenvolvimento Web (HTML, CSS e JS).
 
-## ✨ Funcionalidades
+##  Funcionalidades
 - Página Saudação
 - Página inicial com apresentação e dicas em vídeos
 - Páginas separadas para **cachorros** e **gatos**
 - Design responsivo para mobile (480px)
 - Formulário para contato com campos obrigatórios e tipos diferentes
 
-## 💻 usadas
+## usadas
 - HTML5
 - CSS3
 - JavaScript (estrutura base)
@@ -19,7 +19,7 @@ Projeto de site para um pet shop especializado em **animais idosos**, desenvolvi
 - Banco de dados para cadastro de produtos
 - Área de login para clientes
 
-## 🖼️ Preview
+## Preview
 
 ### Página Saudação:
 ![Saudacao](prints/pagina.saudacao.JPG)
